@@ -15,7 +15,7 @@ const app = express();
 const defaultAllowed = [
     'http://localhost:3000',               // local frontend
     'https://fullstack-2-ho88.onrender.com', // previous frontend
-    'https://myblog-frontend.onrender.com'   // your live frontend
+    'https://blogmanager-rho.vercel.app/'   // your live frontend
 ];
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS
